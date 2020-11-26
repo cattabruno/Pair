@@ -1,0 +1,26 @@
+main {
+    margin-top: 2rem;
+}
+.carousel-item {
+    height: 500px !important;
+}
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 200px !important;
+    }
+}
+.Slide1 {
+    background-image: url(../../img/Slide2.jpg); 
+    background-position: center center;
+    background-size: cover;
+}
+.Slide2 {
+    background-image: url(../../img/Slide3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.Slide3 {
+    background-image: url(../../img/Slide1.jpg);
+    background-position: center center;
+    background-size: cover;
+}

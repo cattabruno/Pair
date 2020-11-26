@@ -1,0 +1,159 @@
+@charset "UTF-8";
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d8e2dc; }
+
+h1 {
+  color: #26547C;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10vh;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px; } }
+
+h2 {
+  color: #26547C;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 300%; }
+
+section {
+  margin: 2rem; }
+
+code {
+  font-family: "Ubuntu", sans-serif;
+  color: crimson;
+  padding: 2px;
+  font-size: 105%; }
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: top;
+  background-image: url(../../img/fondoHeader.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.header__buscador {
+  justify-content: end;
+  margin-top: 1rem;
+  margin: 1rem; }
+
+nav {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif; }
+  nav li {
+    display: inline-block;
+    margin: 1rem; }
+
+a {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  transition: all 0.5s; }
+  a:hover {
+    font-size: 20px; }
+
+ol li {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  color: #26547C; }
+
+ul {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif; }
+
+main {
+  margin-top: 2rem; }
+
+.carousel-item {
+  height: 500px !important; }
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 200px !important; } }
+
+.Slide1 {
+  background-image: url(../../img/Slide2.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Slide2 {
+  background-image: url(../../img/Slide3.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Slide3 {
+  background-image: url(../../img/Slide1.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Productos {
+  height: 400px;
+  width: 100vh; }
+
+.Cocina {
+  background-image: url(../Secciones/Cocina.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Deco {
+  background-image: url(../Secciones/Deco.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Baño {
+  background-image: url(../Secciones/Baño.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Jardin {
+  background-image: url(../Secciones/Jardin.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.Limpieza {
+  background-image: url(../Secciones/Limpieza.png);
+  background-position: center center;
+  background-size: cover; }
+
+.Varios {
+  background-image: url(../Secciones/Varios.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+form {
+  color: #26547C;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif; }
+
+#formulario {
+  justify-content: space-evenly; }
+
+.btn btn-outline-success {
+  margin-top: 1rem; }
+
+footer {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #26547C;
+  bottom: 0; }
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: #26547C; }

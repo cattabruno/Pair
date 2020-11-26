@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    width: 100%;
+    margin: 0;  
+    padding: 0;
+    align-items: top;
+    background-image: url(../../img/fondoHeader.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.header__buscador {
+    justify-content: end;
+    margin-top: 1rem;
+    margin: 1rem;
+}   
+nav {
+    text-align: center;
+    font-family: $tipografia;
+    li {
+        display: inline-block;
+        margin: 1rem;
+    }
+}
+a {
+    font-family: $tipografia;
+    font-size: 18px;
+    transition: all 0.5s;
+    &:hover {
+        font-size: 20px;
+    }
+}
+ol li {
+    font-size: 15px;
+    font-family: $tipografia;
+    color: $colorPrincipal;
+}
+ul {
+    text-align: center;
+    font-family: $tipografia
+}

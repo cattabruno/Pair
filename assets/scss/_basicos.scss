@@ -1,0 +1,42 @@
+.no-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}    
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #d8e2dc;
+}
+h1 {
+    color: $colorPrincipal;
+    text-align: center;
+    font-family: $tipografia;
+    font-size: 10vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 50px;
+    }
+}
+     
+h2 {
+    color: $colorPrincipal;
+    text-align: center;
+    font-family: $tipografia;
+    font-size: 300%;
+}
+section {
+    margin: 2rem;
+}
+@mixin highlighted-text () {
+    font-family: $tipografia;
+    color: crimson;
+    padding: 2px;
+    font-size: map-get($map: $font-sizes, $key: small);
+}
+
+code {
+    @include highlighted-text();
+}
