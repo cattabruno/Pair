@@ -1,7 +1,3 @@
-.Productos {
-    height: 400px;
-    width: 100vh;
-}
 .Cocina {
     background-image: url(../Secciones/Cocina.jpg);
     background-position: center center;
@@ -29,6 +25,10 @@
 }
 .Varios {
     background-image: url(../Secciones/Varios.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.Como_comprar {
     background-position: center center;
     background-size: cover;
 }

@@ -1,8 +1,11 @@
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     font-family: $tipografia;
     color: $colorPrincipal;
-    bottom: 0;
 }
 .fa {
     padding: 20px;
